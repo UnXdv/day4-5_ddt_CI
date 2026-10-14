@@ -4,3 +4,4 @@ allure-pytest
 pyyaml
 pytest-rerunfailures
 pytest-xdist
+pytest-html
