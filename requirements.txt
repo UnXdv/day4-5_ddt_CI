@@ -1,0 +1,6 @@
+pytest
+requests
+allure-pytest
+pyyaml
+pytest-rerunfailures
+pytest-xdist

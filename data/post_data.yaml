@@ -1,0 +1,16 @@
+create_post:
+  - case_name: "正常创建帖子" 
+    payload:
+      title: "foo"
+      body: "bar"
+      userId: 1
+    expected_code: 201
+    expected_title: "foo"
+  - case_name: "标题为空"
+    payload:
+      title: ""
+      body: "bar"
+      userId: 1
+    expected_code: 201
+    expected_title: ""
+
